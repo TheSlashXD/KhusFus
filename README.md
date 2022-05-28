@@ -51,14 +51,6 @@ Telegram bot for Whisper Message.
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
 - `DATABASE_URL` - Will be automatically added by Heroku.
 
-## Functions
-
-> More features soon, this is a minimal example :)
-
-## To-Do
-
-> That's on you mainly...
-
 ## Stats
 
 [![GitHub forks](https://img.shields.io/github/forks/TheSlashXD/KhusFus.svg?style=social&label=Fork&maxAge=25920000)](https://github.com/TheSlashXD/KhusFus/network/) [![GitHub stars](https://img.shields.io/github/stars/TheSlashXD/KhusFus.svg?style=social&label=Star&maxAge=25920000)](https://github.com/TheSlashXD/KhusFus/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/TheSlashXD/KhusFus.svg?style=social&label=Watch&maxAge=25920000)](https://github.com/TheSlashXD/KhusFus/watchers/)
