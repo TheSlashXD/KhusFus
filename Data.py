@@ -4,60 +4,57 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Namaskar {}
+Hey {}.
+Welcome to {}
 
-🌐 I'm the Whisper Bot.
+I am the Master of Whisperers (like Varys in Game of Thrones).
 
-💬 You can use me to send secret whispers in groups.
+You can use me to send whispers to your friend in groups and channels (even if I'm not there).
+Only that friend and you will be able to read the message even though others are in same group. 
 
-🔮 I work in the Inline mode that means you can use me even if I'm not in the group.
+To see how to use me press 'How to Use' below.
 
-💌 It is very easy to use me, simply forward a message from a user to which you want to send a whisper and I'll do the rest for you.
-
-There are other ways to use me too. If you are interested to learn more about me click on the Button below.
+By @StarkBots
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("Send a Whisper", switch_inline_query="")],
-        [InlineKeyboardButton(text="Return Home", callback_data="home")],
+        [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
+        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("💬 Send a Whisper 💬", switch_inline_query="")
+            InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")
         ],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help")
+            InlineKeyboardButton("How to Use ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
     ]
 
     # Help Message
     HELP = """
 Just type the message in below format in any chat.
 
-`@KhusFusBot your_message friend_username/id`
-he other way to use me is to write the inline query by your self
+`@WhisperStarkBot your_message friend_username/id`
+    """
 
-the format should be in this arrangement
+    # About Message
+    ABOUT = """
+**About This Bot** 
 
-`@KhusFusBot your whisper @username`
+Bot created by @StarkBots
 
-now I'll split out the format in 3 parts and explain every part of it
+Source Code : [Click Here](https://github.com/StarkBotsIndustries/WhisperBot)
 
-1- `@KhusFusBot`
-this is my username it should be at the beginning of the inline query so I'll know that you are using me and not another bot.
+Inspired By : nnbbot
 
-2-`whisper message`
-it is the whisper that will be sent to the target user, you need to remove `your whisper` and insert your actual whisper.
+Framework : [Pyrogram](docs.pyrogram.org)
 
-3- `@username`
-you should replace this with target's username so the bot will know that the user with this username can see your `whisper message`.
+Language : [Python](www.python.org)
 
-example:- 
-`@KhusFusBot hello this is a test @xyusername`
-
-📎 The bot works in groups and the target user should be in the same group with you
-what you are waiting for?!
-try me now 😉
+Developer : @StarkProgrammer
     """
