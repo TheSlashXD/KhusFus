@@ -19,14 +19,13 @@ main = [
     InlineQueryResultArticle(
         title="Whisper Bot",
         input_message_content=InputTextMessageContent("Write Target User's @username or id at the end of your message."),
-        url="https://t.me/StarkBots",
+        url="https://t.me/TheSlashXD",
         description="Write Target User's @username or id at the end of your message.",
-        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+        thumb_url="https://telegra.ph/file/6bced0abd8685486332a2.png",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Learn More", url="https://t.me/WhisperStarkBot?start=start")],
-                [InlineKeyboardButton("🔒 Send a Whisper 🔒", switch_inline_query="")],
-                [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                [InlineKeyboardButton("Learn More", url="https://t.me/KhusFusBot?start=start")],
+                [InlineKeyboardButton("🔒 Send a Whisper ", switch_inline_query="")]
             ]
         ),
     )
@@ -81,14 +80,14 @@ async def previous_target(sender):
                   title=text1,
                   input_message_content=InputTextMessageContent(
                       f"A whisper message to {mention}" + " " + text2),
-                  url="https://t.me/StarkBots",
+                  url="https://t.me/TheSlashXD",
                   description=text2,
-                  thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                  thumb_url="https://telegra.ph/file/6bced0abd8685486332a2.png",
                   reply_markup=InlineKeyboardMarkup(
                       [
                           [
                               InlineKeyboardButton(
-                                  "🔐 Show Message 🔐",
+                                  "Show Message",
                                   callback_data=str(data_list),
                               )
                           ]
@@ -152,14 +151,14 @@ async def answer(bot: Client, query):
                     InlineQueryResultArticle(
                         title=text1,
                         input_message_content=InputTextMessageContent(f"A whisper message to {target_user.mention}" + " " + text2),
-                        url="https://t.me/StarkBots",
+                        url="https://t.me/TheSlashXD",
                         description=text2,
-                        thumb_url="https://telegra.ph/file/33af12f457b16532e1383.jpg",
+                        thumb_url="https://telegra.ph/file/6bced0abd8685486332a2.png",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "🔐 Show Message 🔐",
+                                        "Show Message",
                                         callback_data=str(data_list),
                                     )
                                 ]
