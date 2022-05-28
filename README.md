@@ -1,8 +1,8 @@
-# Whisper Bot [@WhisperStarkBot](https://t.me/WhisperStarkBot)
+# Whisper Bot
 
 > A star ⭐ from you means a lot to us!
 
-<p align="center"><a href="https://www.github.com/TheSlashXD/KhusFus"><img src="https://telegra.ph/file/6bced0abd8685486332a2.png" width="5000"></a></p>
+<p align="center"><a href="https://www.github.com/TheSlashXD/KhusFus"><img src="https://telegra.ph/file/6bced0abd8685486332a2.png" width="800"></a></p>
 
 Telegram bot for Whisper Message.
 
@@ -79,17 +79,3 @@ Telegram bot for Whisper Message.
 ## Credits
 
 - [Dan Tès](https://github.com/delivrance) for his [Pyrogram](https://docs.pyrogram.org) Library
-
-## Support
-
-Channel :- [@StarkBots](https://t.me/StarkBots)
-
-Group Chat :- [@StarkBotsChat](https://t.me/StarkBotsChat)
-
-## :)
-
-[![ForTheBadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/StarkBotsIndustries)
-
-[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](https://github.com/StarkBotsIndustries)
